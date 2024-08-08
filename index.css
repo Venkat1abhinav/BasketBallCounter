@@ -87,3 +87,12 @@ button:hover {
     font-family: "cursed-timerUlil";
     src: url("fonts/CursedTimerUlil-Aznm.ttf");
 }
+
+footer {
+    position: absolute;
+    color: rgb(1, 1, 32);
+    text-align: center;
+    bottom: 0;
+    align-items: center;
+    left: 700;
+}
