@@ -1,0 +1,77 @@
+<html lang="en">
+    <head>
+        <title>Basket Ball Counter</title>
+        <link rel="stylesheet" href="index.css" >
+        <link
+            href="https://fonts.googleapis.com/css?family=Orbitron"
+            rel="stylesheet"
+            type="text/css"
+        >
+    </head>
+    <body>
+    <main id="main-section">
+        <div class="container" id="basketball_section">
+            <div class="inner-container-1">
+                <h1>HOME</h1>
+                <div class="score_count_container">
+                    <span class="score_count" id="home_score">0</span>
+                </div>
+                <div class="score_counter">
+                    <button
+                        type="button"
+                        onclick="incrementOfHome(1)"
+                    >
+                        +1
+                    </button>
+                    <button
+                        type="button"
+                        onclick="incrementOfHome(2)"
+                    >
+                        +2
+                    </button>
+                    <button
+                        type="button"
+                        onclick="incrementOfHome(3)"
+                    >
+                        +3
+                    </button>
+                </div>
+            </div>
+            <div class="inner-container-1">
+                <h1>GUEST</h1>
+                <div class="score_count_container">
+                    <span class="score_count" id="guest_score">0</span>
+                </div>
+
+                <div class="score_counter">
+                    <button
+                        type="button"
+                        onclick="incrementOfGuest(1)"
+                    >
+                        +1
+                    </button>
+                    <button
+                        type="button"
+                        onclick="incrementOfGuest(2)"
+                    >
+                        +2
+                    </button>
+                    <button
+                        type="button"
+                        onclick="incrementOfGuest(3)"
+                    >
+                        +3
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div  id="leading-team" class="leading">
+            Leading:
+        </div>
+        <div class="newGameContainer">
+            <button type="button" value="Reset" class="newGame" onclick="resetGame()">New Game</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+    </body>
+</html>
