@@ -1,9 +1,11 @@
-homeCount = 0;
-guestCount = 0;
-homeEle = document.getElementById("home_score");
-guestEle = document.getElementById("guest_score");
-leadEle = document.getElementById("leading-team");
-mainEle = document.getElementById("main-section");
+
+
+let homeCount = 0;
+let guestCount = 0;
+let homeEle = document.getElementById("home_score");
+let guestEle = document.getElementById("guest_score");
+let leadEle = document.getElementById("leading-team");
+let mainEle = document.getElementById("main-section");
 
 //increments home values
 function incrementOfHome(count) {
